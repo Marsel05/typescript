@@ -3,6 +3,10 @@ import {AiOutlineInstagram} from "react-icons/ai";
 import {FiFacebook, FiTwitter} from "react-icons/fi";
 import {Link} from "react-router-dom";
 import Spotify from "../.././assets/img/iconca.svg"
+import icon2 from "../.././assets/img/icon2.svg"
+import icon3 from "../.././assets/img/icon3.svg"
+import icon4 from "../.././assets/img/icon4.svg"
+import icon5 from "../.././assets/img/icon5.svg"
 
 const Footer = () => {
     return (
@@ -32,10 +36,10 @@ const Footer = () => {
                </div>
                <div className="flex w-[450px]">
                    <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
-                   <img className="m-2" src={Spotify} alt="img"/>
+                   <img className="m-2" src={icon2} alt="img"/>
+                   <img className="m-2" src={icon3} alt="img"/>
+                   <img className="m-2" src={icon4} alt="img"/>
+                   <img className="m-2" src={icon5} alt="img"/>
                </div>
            </div>
         </div>

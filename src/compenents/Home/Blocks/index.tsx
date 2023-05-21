@@ -1,5 +1,7 @@
 import React from 'react';
 import Radio from "../../../assets/img/block.svg"
+import voice from "../../../assets/img/voice.svg"
+import heir from "../../../assets/img/heir.svg"
 
 const Blocks = () => {
     return (
@@ -19,7 +21,7 @@ const Blocks = () => {
                 </div>
             </div>
             <div className="py-8 px-8 bg-black rounded-3xl flex justify-between my-10">
-                <img src={Radio} width={320} alt="img"/>
+                <img src={voice} width={320} alt="img"/>
                 <div className="w-[68%]">
                     <button className="my-4 text-white bg-blue-900 px-1 rounded-lg">Tips & Tricks</button>
                     <h6 className="text-teal-900 py-4">Episode 2</h6>
@@ -29,7 +31,7 @@ const Blocks = () => {
                 </div>
             </div>
             <div className="py-8 px-8 bg-black rounded-3xl flex justify-between my-10">
-                <img src={Radio} width={320} alt="img"/>
+                <img src={heir} width={320} alt="img"/>
                 <div className="w-[68%]">
                     <button className="my-4 text-white bg-blue-900 px-1 rounded-lg">Gear</button>
                     <h6 className="text-teal-900 py-4">Episode 1</h6>
